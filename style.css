@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(155, 185, 214,.2);
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgb(184, 181, 181);
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.header {
+    padding: 20px 40px;
+    text-align: center;
+}
+.header h1 {
+    margin: 0;
+}
+.header h4 {
+    color: #a9a9a9;
+}
+.social small {
+    margin-left: 10px;
+}
+.fa {
+    text-decoration: none;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 17px;
+}
+.fa-facebook {
+    background-color: #4267b2;
+}
+.fa-twitter {
+    background-color: #1da1f2;
+}
+.fa-google {
+    background-color: #ea4335;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #a9a9a9;
+    color: #a9a9a9;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    color: #000;
+    content: 'or';
+    padding: 5px;
+    position: relative;
+    border: 1px solid #a9a9a9;
+    border-radius: 50px;
+    top: -13px;
+    font-weight: bold;
+}
+
+.form {
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.form-control {
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+.form-control input {
+    border: 2px solid #a9a9a9;
+    border-radius: 50px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 8px;
+    width: 100%;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: #010101;
+}
+
+.form-control span {
+	color: #e74c3c;
+	position: absolute;
+    font-size: 10px;
+	bottom: -7px;
+	left: 10px;
+}
+
+
+.form button {
+    position: relative;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px #010101;
+    display: block;
+    font-family: inherit;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+
+.login {
+    text-align: center;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.login a {
+    color: green;
+}
