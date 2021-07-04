@@ -32,11 +32,17 @@ body {
 .header h4 {
     color: #a9a9a9;
 }
+.social {
+    display: flex;
+    justify-content: space-around;
+}
 .social small {
     margin-left: 10px;
+    font-size: 17px;
 }
 .fa {
     text-decoration: none;
+    width: 30%;
     text-align: center;
     margin: 10px;
     padding: 15px;
@@ -129,7 +135,7 @@ hr:after {
 
 .login {
     text-align: center;
-    margin-top: 0;
+    margin-top: 10px;
     font-weight: bold;
 }
 
