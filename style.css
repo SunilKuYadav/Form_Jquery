@@ -87,6 +87,12 @@ hr:after {
     text-align: center;
 }
 
+.ui-datepicker {
+    background: #fff;
+    border: 1px solid #000;
+    color: #000;
+}
+
 .form-control {
     margin: 10px;
     padding: 10px;
