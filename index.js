@@ -5,6 +5,7 @@ $(document).ready(() => {
     changeMonth: true,
     changeYear: true,
     maxDate: '-216M',
+    showAnim:'slideDown',
     onSelect: function(dateText, inst) {
     var time = setAge(new Date(dateText));
     $("#dobError").hide();
